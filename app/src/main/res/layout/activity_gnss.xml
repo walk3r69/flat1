@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Exibe a posição do usuário -->
+    <TextView
+        android:id="@+id/textview_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posição do Usuário"
+        android:textSize="18sp" />
+
+    <!-- Exibe a lista de satélites -->
+    <TextView
+        android:id="@+id/textview_satellites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posições dos Satélites"
+        android:textSize="18sp" />
+
+    <!-- Exibe a qualidade do sinal dos satélites -->
+    <TextView
+        android:id="@+id/textview_signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualidade do Sinal dos Satélites"
+        android:textSize="18sp" />
+
+    <!-- Adicionando o SurfaceView -->
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
